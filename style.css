@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1483px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.d-f {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-n {
+    display: none;
+}
+
+.d-b {
+    display: block;
+}
+
+.container {
+    margin-left: 22px;
+    margin-right: 21px;
+}
+
+.header {
+    padding-top: 21.16px;
+    padding-bottom: 20.84px;
+    padding-left: 22px;
+    padding-right: 29px;
+    border: 1px solid #111111;
+}
+
+.header-back-btn,
+.header-clone-btn {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FB4B4D;
+    border: 1px solid #FB4B4D;
+    font-size: 14px;
+    line-height: 21.6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-back-btn {
+    width: 157px;
+}
+
+.header-link {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+}
+
+.header-link-story {
+    padding-left: 45px;
+    padding-right: 50px;
+}
+
+.header-link-shop {
+    padding-left: 44px;
+    padding-right: 59px;
+}
+
+.header-link-contact,
+.header-link-whole {
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.header-clone-btn {
+    width: 144px;
+    margin-left: 39px;
+}
+
+.home-main-logo {
+    padding-top: 20px;
+    padding-bottom: 21.28px;
+    padding-left: 21.41px;
+    padding-right: 18.98px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-main-box {
+    gap: 29px;
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-main-item {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.home-main .main-img-first {
+    padding-top: 19.06px;
+    padding-bottom: 30px;
+    padding-left: 21.41px;
+    padding-right: 18.98px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-main-title {
+    padding-top: 24px;
+    padding-bottom: 15px;
+    padding-left: 81px;
+    padding-right: 80px;
+    border-bottom: 1px solid #111111;
+    border-right: 1px solid #111111;
+    font-size: 58px;
+    line-height: 64.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.home-main .main-img-second {
+    padding-top: 19.38px;
+    padding-bottom: 82px;
+    padding-left: 21.02px;
+    padding-right: 21.39px;
+    border-bottom: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-throw  {
+    padding-top: 69px;
+    padding-bottom: 58px;
+    padding-left: 29px;
+    padding-right: 30px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-throw-title {
+    width: 785px;
+    font-size: 65px;
+    line-height: 72.6px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.home-best {
+    height: 699px;
+    position: relative;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-best-mask {
+    padding-left: 38px;
+    padding-right: 56px;
+}
+
+.home-best-box {
+    gap: 24px;
+    position: absolute;
+    top: 21px;
+    left: 40px;
+}
+
+.home-best-item {
+    padding-top: 129.19px;
+    padding-bottom: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background:url("images/best-item-bg.png") no-repeat;
+    text-align: center;
+}
+
+.best-item-cat {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.best-item-title {
+    margin-top: 14px;
+    margin-bottom: 13px;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
