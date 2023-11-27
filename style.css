@@ -109,7 +109,7 @@ body {
     border-right: 1px solid #111111;
 }
 
-.home-main-box {
+.home-main-box, .home-info {
     gap: 29px;
     padding-top: 23.5px;
     padding-bottom: 23.5px;
@@ -118,9 +118,10 @@ body {
     border-right: 1px solid #111111;
 }
 
-.home-main-item {
+.home-main-item, .home-info-item {
     font-size: 17px;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
     color: #000000;
 }
 
@@ -223,3 +224,100 @@ body {
     color: #000000;
 }
 
+.home-promo {
+    padding-top: 21px;
+    padding-bottom: 18.25px;
+    padding-left: 21.41px;
+    padding-right: 21.39px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-story-caption {
+    height: 699px;
+    padding-top: 53.75px;
+    border-bottom: 1px solid #111111;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-story-title {
+    width: 590px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+    font-size: 58px;
+    line-height: 64.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.home-story-content {
+    width: 741px;
+    height: 699px;
+    padding-top: 134.29px;
+    padding-bottom: 130.29px;
+    background: url("images/story-content-bg.png") no-repeat;
+    border-bottom: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.home-story-desc {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.home-story-desc:nth-child(1) {
+    width: 393px;
+    margin: 0 auto;
+}
+
+.home-story-desc:nth-child(2) {
+    margin-top: 22px;
+}
+
+.home-story-desc:nth-child(3) {
+    width: 373px;
+    margin: 26px auto;
+    margin-bottom: 0;
+}
+
+.home-story-desc:nth-child(4) {
+    width: 386px;
+    margin: 23px auto;
+    margin-bottom: 0;
+}
+
+.footer {
+    margin-top: -183px;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+.footer-bar {
+    padding-top: 20px;
+    padding-bottom: 21px;
+    padding-left: 93px;
+    padding-right: 93px;
+    background-color: #CDFD3B;
+    border-top: 1px solid #111111;
+
+}
+
+.footer-link, .footer-location {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+}
